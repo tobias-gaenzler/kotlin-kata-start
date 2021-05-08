@@ -17,6 +17,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.1")
     testImplementation("io.mockk:mockk:$mockkVersion")
     testImplementation("io.kotest:kotest-runner-junit5-jvm:$koTestVersion")
     testImplementation("io.kotest:kotest-assertions-core-jvm:$koTestVersion")
